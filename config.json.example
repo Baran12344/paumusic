@@ -1,0 +1,8 @@
+{
+  "token": "DISCORD_BOT_TOKEN_BURAYA",
+  "prefix": "!",
+  "spotify": {
+    "clientId": "SPOTIFY_CLIENT_ID_BURAYA",
+    "clientSecret": "SPOTIFY_CLIENT_SECRET_BURAYA"
+  }
+}

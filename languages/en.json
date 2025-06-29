@@ -1,0 +1,140 @@
+{
+  "commands": {
+    "play": {
+      "name": "play",
+      "description": "Play music",
+      "option_query": "Song name or URL"
+    },
+    "radio": {
+      "name": "radio",
+      "description": "Play radio"
+    },
+    "stop": {
+      "name": "stop",
+      "description": "Stop music"
+    },
+    "skip": {
+      "name": "skip",
+      "description": "Skip song"
+    },
+    "queue": {
+      "name": "queue",
+      "description": "Show queue"
+    },
+    "stats": {
+      "name": "stats",
+      "description": "Show bot statistics"
+    },
+    "ping": {
+      "name": "ping",
+      "description": "Show bot ping"
+    },
+    "oy": {
+      "name": "vote",
+      "description": "Vote for the bot on top.gg and get 12 hours unlimited usage!"
+    },
+    "dil": {
+      "name": "language",
+      "description": "Change bot language"
+    },
+    "language": {
+      "name": "language",
+      "description": "Change bot language"
+    }
+  },
+  "messages": {
+    "errors": {
+      "not_in_voice": "❌ You need to join a voice channel first!",
+      "no_query": "❌ Please provide a song name or URL!\nExample: `/play despacito`",
+      "song_not_found": "❌ Song not found!",
+      "play_error": "❌ An error occurred while playing the song!",
+      "voice_connect_error": "❌ Error connecting to voice channel!",
+      "not_playing": "❌ Nothing is currently playing!",
+      "empty_queue": "❌ Queue is empty!",
+      "radio_error": "❌ An error occurred while playing radio!",
+      "radio_connect_error": "❌ Error connecting to radio station!",
+      "invalid_radio": "❌ Invalid radio station!",
+      "command_error": "❌ An error occurred while executing the command!"
+    },
+    "usage_limit": {
+      "time_up": "⏰ **Your 30-minute usage time is up!** Use `/vote` command to get 12 more hours of unlimited usage! 🎵",
+      "title": "⏰ Usage Time Expired!",
+      "description": "**Your 30-minute free usage time has expired!**\n\n🗳️ **Vote for our bot on top.gg to get 12 more hours of unlimited usage!**\n⭐ Your vote helps us a lot and contributes to the bot's development.\n\n**After voting:**\n✅ 12 hours unlimited usage\n🎵 Access to all music features\n📻 Radio stations\n🚀 Priority support",
+      "how_to_vote": "🎯 How to Vote?",
+      "vote_steps": "1. Click 'Vote on Top.gg' button\n2. Login on top.gg website\n3. Click 'Vote' button\n4. Come back here and click '✅ I Voted' button",
+      "footer": "Thank you for your support! ❤️"
+    },
+    "vote": {
+      "button_vote": "🗳️ Vote on Top.gg",
+      "button_voted": "✅ I Voted",
+      "title": "🗳️ Vote for the Bot!",
+      "description": "**Vote for our bot on top.gg to get 12 hours of unlimited usage!**\n\n🎯 **Benefits of voting:**\n✅ **12 hours unlimited usage**\n🎵 Unlimited access to all music features\n📻 Radio stations\n🚀 Priority support\n⭐ Contribute to bot development\n\n**How to vote?**\n1. Click the 'Vote on Top.gg' button below\n2. Login with Discord on top.gg website\n3. Click 'Vote' button\n4. Come back here and click '✅ I Voted' button",
+      "field_time": "⏰ Unlimited Time",
+      "field_repeat": "🔄 Vote Again",
+      "field_bonus": "🎁 Bonus",
+      "time_value": "12 hours",
+      "repeat_value": "Every 12 hours",
+      "bonus_value": "Unlimited usage",
+      "footer": "Your support is very valuable to us! ❤️",
+      "thanks_title": "✅ Thank You!",
+      "thanks_description": "**Your vote has been received!** 🎉\n\n🚀 **12 hours of unlimited usage is now active!**\n🎵 You can now use all features unlimited.\n\nThank you very much for your support! ❤️",
+      "thanks_footer": "Enjoy unlimited music experience!"
+    },
+    "music": {
+      "added_to_queue": "🎵 Added to Queue",
+      "now_playing": "🎵 Now Playing",
+      "stopped": "⏹️ Music Stopped",
+      "stopped_desc": "Music stopped and queue cleared.",
+      "skipped": "⏭️ Song Skipped",
+      "skipped_desc": "skipped.",
+      "queue_title": "🎵 Music Queue",
+      "queue_footer": "Total {count} songs",
+      "queue_more": "And {count} more songs...",
+      "field_position": "📍 Position",
+      "field_requester": "👤 Requested by",
+      "field_queue_count": "📊 Songs in Queue",
+      "spotify_playlist_loading": "🎵 Adding Spotify Playlist...",
+      "spotify_playlist_desc": "**{name}**\nAdding {count} songs to queue..."
+    },
+    "radio": {
+      "title": "📻 Select Radio Station",
+      "description": "Choose the radio station you want to listen to from the buttons below:",
+      "footer": "Click buttons to start listening to radio!",
+      "playing_title": "📻 Radio Playing",
+      "playing_desc": "**{emoji} {name}** is now playing!",
+      "field_genre": "🎵 Genre",
+      "field_starter": "👤 Started by",
+      "field_status": "📡 Status",
+      "status_live": "🔴 Live",
+      "playing_footer": "Radio will continue playing uninterrupted"
+    },
+    "stats": {
+      "title": "📊 Bot Statistics",
+      "field_servers": "🏠 Server Count",
+      "field_users": "👥 User Count",
+      "field_channels": "📺 Channel Count",
+      "field_ping": "🏓 Ping",
+      "field_uptime": "⏰ Uptime",
+      "field_memory": "💾 RAM Usage",
+      "field_os": "🖥️ Operating System",
+      "field_node": "📦 Node.js Version",
+      "field_discord": "🤖 Discord.js Version",
+      "footer": "by {tag}"
+    },
+    "ping": {
+      "calculating": "🏓 Calculating ping...",
+      "title": "🏓 Pong!",
+      "field_bot_latency": "📡 Bot Latency",
+      "field_api_latency": "💓 API Latency"
+    },
+    "language": {
+      "title": "🌍 Language Selection",
+      "description": "Select the bot language:",
+      "button_turkish": "🇹🇷 Türkçe",
+      "button_english": "🇺🇸 English",
+      "changed_title": "✅ Language Changed!",
+      "changed_desc": "Bot language has been set to **English**.",
+      "footer": "Language setting saved for this server."
+    }
+  }
+}

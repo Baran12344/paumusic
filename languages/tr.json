@@ -1,0 +1,140 @@
+{
+  "commands": {
+    "play": {
+      "name": "play",
+      "description": "Müzik çalar",
+      "option_query": "Şarkı adı veya URL"
+    },
+    "radio": {
+      "name": "radio",
+      "description": "Radyo çalar"
+    },
+    "stop": {
+      "name": "stop",
+      "description": "Müziği durdurur"
+    },
+    "skip": {
+      "name": "skip",
+      "description": "Şarkıyı atlar"
+    },
+    "queue": {
+      "name": "queue",
+      "description": "Kuyruğu gösterir"
+    },
+    "stats": {
+      "name": "stats",
+      "description": "Bot istatistiklerini gösterir"
+    },
+    "ping": {
+      "name": "ping",
+      "description": "Bot pingini gösterir"
+    },
+    "oy": {
+      "name": "oy",
+      "description": "Botu top.gg'de oyla ve 12 saat kesintisiz kullan!"
+    },
+    "dil": {
+      "name": "dil",
+      "description": "Bot dilini değiştirir"
+    },
+    "language": {
+      "name": "language",
+      "description": "Bot dilini değiştirir"
+    }
+  },
+  "messages": {
+    "errors": {
+      "not_in_voice": "❌ Önce bir ses kanalına katılmalısın!",
+      "no_query": "❌ Lütfen bir şarkı adı veya URL girin!\nÖrnek: `/play despacito`",
+      "song_not_found": "❌ Şarkı bulunamadı!",
+      "play_error": "❌ Şarkı çalarken bir hata oluştu!",
+      "voice_connect_error": "❌ Ses kanalına bağlanırken hata oluştu!",
+      "not_playing": "❌ Şu anda müzik çalmıyor!",
+      "empty_queue": "❌ Kuyrukta şarkı yok!",
+      "radio_error": "❌ Radyo çalarken bir hata oluştu!",
+      "radio_connect_error": "❌ Radyo istasyonuna bağlanırken hata oluştu!",
+      "invalid_radio": "❌ Geçersiz radyo istasyonu!",
+      "command_error": "❌ Komut çalıştırılırken bir hata oluştu!"
+    },
+    "usage_limit": {
+      "time_up": "⏰ **30 dakikalık kullanım süreniz doldu!** `/oy` komutunu kullanarak 12 saat daha kesintisiz kullanım kazanın! 🎵",
+      "title": "⏰ Kullanım Süresi Doldu!",
+      "description": "**30 dakikalık ücretsiz kullanım süreniz doldu!**\n\n🗳️ **Top.gg'de botumu oylayarak 12 saat daha kesintisiz kullanım kazanın!**\n⭐ Oyunuz bize çok yardımcı oluyor ve botun gelişimine katkıda bulunuyorsunuz.\n\n**Oy verdikten sonra:**\n✅ 12 saat kesintisiz kullanım\n🎵 Tüm müzik özelliklerine erişim\n📻 Radyo istasyonları\n🚀 Öncelikli destek",
+      "how_to_vote": "🎯 Nasıl Oy Verilir?",
+      "vote_steps": "1. 'Top.gg'de Oy Ver' butonuna tıklayın\n2. Top.gg sitesinde giriş yapın\n3. 'Vote' butonuna tıklayın\n4. Buraya geri dönüp '✅ Oy Verdim' butonuna tıklayın",
+      "footer": "Desteğiniz için teşekkürler! ❤️"
+    },
+    "vote": {
+      "button_vote": "🗳️ Top.gg'de Oy Ver",
+      "button_voted": "✅ Oy Verdim",
+      "title": "🗳️ Botu Oyla!",
+      "description": "**Top.gg'de botumu oylayarak 12 saat kesintisiz kullanım kazanın!**\n\n🎯 **Oy vermenin faydaları:**\n✅ **12 saat kesintisiz kullanım**\n🎵 Tüm müzik özelliklerine sınırsız erişim\n📻 Radyo istasyonları\n🚀 Öncelikli destek\n⭐ Botun gelişimine katkı\n\n**Nasıl oy verilir?**\n1. Aşağıdaki 'Top.gg'de Oy Ver' butonuna tıklayın\n2. Top.gg sitesinde Discord ile giriş yapın\n3. 'Vote' butonuna tıklayın\n4. Buraya geri dönüp '✅ Oy Verdim' butonuna tıklayın",
+      "field_time": "⏰ Kesintisiz Süre",
+      "field_repeat": "🔄 Tekrar Oylama",
+      "field_bonus": "🎁 Bonus",
+      "time_value": "12 saat",
+      "repeat_value": "12 saatte bir",
+      "bonus_value": "Sınırsız kullanım",
+      "footer": "Desteğiniz bizim için çok değerli! ❤️",
+      "thanks_title": "✅ Teşekkürler!",
+      "thanks_description": "**Oyunuz alındı!** 🎉\n\n🚀 **12 saat boyunca kesintisiz kullanım aktif!**\n🎵 Artık tüm özellikleri sınırsız kullanabilirsiniz.\n\nDesteğiniz için çok teşekkür ederiz! ❤️",
+      "thanks_footer": "Kesintisiz müzik keyfinin tadını çıkarın!"
+    },
+    "music": {
+      "added_to_queue": "🎵 Kuyruğa Eklendi",
+      "now_playing": "🎵 Şimdi Çalıyor",
+      "stopped": "⏹️ Müzik Durduruldu",
+      "stopped_desc": "Müzik durduruldu ve kuyruk temizlendi.",
+      "skipped": "⏭️ Şarkı Atlandı",
+      "skipped_desc": "atlandı.",
+      "queue_title": "🎵 Müzik Kuyruğu",
+      "queue_footer": "Toplam {count} şarkı",
+      "queue_more": "Ve {count} şarkı daha...",
+      "field_position": "📍 Sıra",
+      "field_requester": "👤 Ekleyen",
+      "field_queue_count": "📊 Kuyruktaki Şarkı",
+      "spotify_playlist_loading": "🎵 Spotify Playlist Ekleniyor...",
+      "spotify_playlist_desc": "**{name}**\n{count} şarkı kuyruğa ekleniyor..."
+    },
+    "radio": {
+      "title": "📻 Radyo İstasyonu Seçin",
+      "description": "Aşağıdaki butonlardan dinlemek istediğiniz radyo istasyonunu seçin:",
+      "footer": "Butonlara tıklayarak radyo dinlemeye başlayın!",
+      "playing_title": "📻 Radyo Çalıyor",
+      "playing_desc": "**{emoji} {name}** şimdi çalıyor!",
+      "field_genre": "🎵 Tür",
+      "field_starter": "👤 Başlatan",
+      "field_status": "📡 Durum",
+      "status_live": "🔴 Canlı Yayın",
+      "playing_footer": "Radyo kesintisiz çalmaya devam edecek"
+    },
+    "stats": {
+      "title": "📊 Bot İstatistikleri",
+      "field_servers": "🏠 Sunucu Sayısı",
+      "field_users": "👥 Kullanıcı Sayısı",
+      "field_channels": "📺 Kanal Sayısı",
+      "field_ping": "🏓 Ping",
+      "field_uptime": "⏰ Çalışma Süresi",
+      "field_memory": "💾 RAM Kullanımı",
+      "field_os": "🖥️ İşletim Sistemi",
+      "field_node": "📦 Node.js Sürümü",
+      "field_discord": "🤖 Discord.js Sürümü",
+      "footer": "{tag} tarafından"
+    },
+    "ping": {
+      "calculating": "🏓 Ping hesaplanıyor...",
+      "title": "🏓 Pong!",
+      "field_bot_latency": "📡 Bot Gecikmesi",
+      "field_api_latency": "💓 API Gecikmesi"
+    },
+    "language": {
+      "title": "🌍 Dil Seçimi",
+      "description": "Botun dilini seçin:",
+      "button_turkish": "🇹🇷 Türkçe",
+      "button_english": "🇺🇸 English",
+      "changed_title": "✅ Dil Değiştirildi!",
+      "changed_desc": "Bot dili **Türkçe** olarak ayarlandı.",
+      "footer": "Dil ayarı bu sunucu için kaydedildi."
+    }
+  }
+}

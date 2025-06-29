@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: paumusic-bot
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install --no-package-lock --legacy-peer-deps --force
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NPM_CONFIG_PRODUCTION
+        value: false
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: SPOTIFY_CLIENT_ID
+        sync: false
+      - key: SPOTIFY_CLIENT_SECRET
+        sync: false
+    healthCheckPath: /health
+    autoDeploy: true
